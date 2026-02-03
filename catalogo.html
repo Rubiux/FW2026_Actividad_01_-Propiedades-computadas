@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Celulares</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+
+<header class="bg-primary text-white text-center p-3">
+    <h1>Catálogo de Celulares</h1>
+    <p>Registro y consulta de smartphones</p>
+</header>
+
+<div class="container mt-4">
+
+    <h4>Buscar Teléfono</h4>
+
+    <input type="text"
+           class="form-control mb-3"
+           placeholder="Buscar por marca o modelo...">
+
+    <h5>Teléfonos Registrados</h5>
+
+    <ul class="list-group mb-4">
+
+        <li class="list-group-item">
+            Samsung Galaxy S23 - Gama Alta
+        </li>
+
+        <li class="list-group-item">
+            iPhone 13 - Gama Alta
+        </li>
+
+        <li class="list-group-item">
+            Xiaomi Redmi Note 12 - Gama Media
+        </li>
+
+        <li class="list-group-item">
+            Motorola G54 - Gama Media
+        </li>
+
+    </ul>
+
+    <hr>
+
+    <h4>Registrar Nuevo Teléfono</h4>
+
+    <div class="card p-3">
+
+        <input type="text"
+               class="form-control mb-2"
+               placeholder="ID del teléfono">
+
+        <input type="text"
+               class="form-control mb-2"
+               placeholder="Marca">
+
+        <input type="text"
+               class="form-control mb-2"
+               placeholder="Modelo">
+
+        <select class="form-control mb-2">
+            <option>Gama Alta</option>
+            <option>Gama Media</option>
+            <option>Gama Baja</option>
+        </select>
+
+        <textarea class="form-control mb-2"
+                  placeholder="Descripción"></textarea>
+
+        <input type="text"
+               class="form-control mb-2"
+               placeholder="Sistema Operativo">
+
+        <button class="btn btn-primary">
+            Agregar Teléfono
+        </button>
+
+    </div>
+
+    <a href="index.html" class="btn btn-secondary mt-3">
+        ⬅ Volver al Inicio
+    </a>
+
+</div>
+
+</body>
+</html>

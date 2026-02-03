@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf6ef;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    background: #2e788b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    gap: 20px;
+    background: #c8e8f0;
+    padding: 20px;
+}
+
+.tabla {
+    width: 65%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #9cf6f6;
+}
+
+th,
+td {
+    border: 1px solid #666;
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.resumen {
+    margin-top: 15px;
+}
+
+.formulario {
+    width: 30%;
+    background: #6cd7db;
+    padding: 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.formulario input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.formulario button {
+    width: 100%;
+    background: #2295b2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.formulario button:hover {
+    background: #1a7a93;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+
+    .contenido {
+        flex-direction: column;
+    }
+
+    .tabla,
+    .formulario {
+        width: 100%;
+    }
+
+}

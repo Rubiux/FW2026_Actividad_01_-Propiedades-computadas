@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda de Reparaciones</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <h1>📱 Agenda de Reparaciones</h1>
+
+    <p>Registra citas para revisión y reparación de celulares</p>
+
+    <div class="contenido">
+
+        <div class="tabla">
+
+            <h2>Citas Registradas</h2>
+
+            <table id="tablaAgenda">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Modelo</th>
+                        <th>Falla</th>
+                        <th>Fecha</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="formulario">
+
+            <h2>Nueva Cita</h2>
+
+            <input type="text" id="cliente" placeholder="Nombre del cliente">
+
+            <input type="text" id="modelo" placeholder="Modelo del celular">
+
+            <input type="text" id="falla" placeholder="Descripción de la falla">
+
+            <input type="date" id="fecha">
+
+            <button onclick="agregarCita()">Agregar Cita</button>
+
+            <div class="resumen">
+                <p>Total citas: <span id="totalCitas">0</span></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <a href="index.html">⬅ Volver al inicio</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
